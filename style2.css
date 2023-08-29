@@ -1,0 +1,166 @@
+.thirdSection {
+    background-color: rgb(2, 2, 33);
+    width: 100%;
+    height: 38rem;
+    font-family: poppins;
+}
+.thirdSection hr:first-child{
+    width: 40%;
+    height: 2px;
+    background-color: lavender;
+    margin: 0 auto 0 auto;            
+}
+.thirdSection>h4 {
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+    color: rgb(15, 205, 81);
+    letter-spacing: 1.8px;
+    font-weight: bold;
+}
+
+.thirdSection>h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(254, 253, 253);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info>div {
+    width: 500px;
+    height: 380px;
+    background-color: #18132e;
+    border-radius: 10px;
+    margin: 3rem;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+.information h2:first-child {
+    color: aqua;
+    position: relative;
+}
+
+.information>hr {
+    background-color: yellowgreen;
+    margin: 30px 0;
+}
+
+.information>p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: poppins;
+    color: rgb(189, 189, 237);
+    text-align: justify;
+}
+
+table {
+    margin-top: 12vh;
+}
+
+table img {
+    width: 12px;
+    border-radius: 3px;
+}
+
+table tr td {
+    padding-left: 15px;
+    color: rgb(189, 189, 237);
+}
+
+.download h2:first-child {
+    color: aqua;
+    text-align: center;
+    margin: 30px;
+}
+
+.download hr {
+    background-color: red;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+
+.download p {
+    color: rgb(189, 189, 237);
+    margin: 34px 12px;
+    text-align: center;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+button {
+    background-color: aquamarine;
+    border: 2px solid aqua;
+    border-radius: 6px;
+    width: 10rem;
+    height: 2rem;
+    margin: 3rem 8rem;
+}
+
+footer div:first-child {
+    height: 20rem;
+    width: 99%;
+    border: 2px solid aqua;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+footer div:last-child{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer section{
+    width: 23%;
+    height: 19rem;
+    margin: 10px;  
+text-align: justify;          
+}
+footer #leftSection h2{
+    font-size: 1.6rem;
+    color: rgb(103, 215, 148);
+    margin-top: 3rem;
+    line-height: 100px;
+    letter-spacing: 1.2px;
+}
+footer #leftSection p{
+    color: rgb(73, 125, 108);
+    font-size: 16px;
+    line-height: 30px;
+}
+footer #midSection h2{
+    color: rgb(49, 248, 248);
+    margin: 80px 60px;
+    font-family: poppins;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    
+}
+footer #span{
+    margin: -40px 0 0 30px;
+    text-align: justify;
+}
+footer #span span{
+    letter-spacing: 1.2px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: poppins;
+    display: block;
+    margin: 10px 30px;
+    cursor: pointer;
+    color: rgb(173, 175, 175);
+}
+footer #rightSection h2{
+    color:  rgba(27, 242, 242, 0.93);
+    font-size: 1.2rem;
+    margin: 80px 60px;
+}
+footer table{
+    margin: 0 0 0 20px;
+}
